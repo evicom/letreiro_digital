@@ -1,0 +1,45 @@
+{
+  "name": "Letreiro Digital Personalizável",
+  "short_name": "Letreiro",
+  "description": "Crie letreiros digitais neon personalizados com animações, cores e efeitos brilhantes. Perfeito para eventos, festas e decorações.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["entertainment", "utilities", "productivity"],
+  "theme_color": "#07080c",
+  "background_color": "#07080c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Modo Neon Cyan",
+      "short_name": "Cyan",
+      "description": "Abrir com tema neon cyan padrão",
+      "url": "./index.html#eyJ0ZXh0byI6ImNvbG9xdWUgc3VhIG1lbnNhZ2VtIGFxdWkhIiwiZm9udGUiOiJPcmJpdHJvbiIsInRhbSI6ODAsInZlbCI6MjAsImRpciI6ImxlZnQiLCJibGluayI6ZmFsc2UsImJsaW5rVmVsIjoxLCJpbnQiOjMwLCJicmlsaG8iOjE2LCJjb3IiOiIjMDBlNWZmIiwiZnVuZG8iOiIjMDAwMDAwIn0="
+    },
+    {
+      "name": "Modo Neon Rosa",
+      "short_name": "Rosa",
+      "description": "Abrir com tema neon rosa",
+      "url": "./index.html#eyJ0ZXh0byI6ImNvbG9xdWUgc3VhIG1lbnNhZ2VtIGFxdWkhIiwiZm9udGUiOiJPcmJpdHJvbiIsInRhbSI6ODAsInZlbCI6MjAsImRpciI6ImxlZnQiLCJibGluayI6ZmFsc2UsImJsaW5rVmVsIjoxLCJpbnQiOjQwLCJicmlsaG8iOjIwLCJjb3IiOiIjZmYyYmQ2IiwiZnVuZG8iOiIjMDAwMDAwIn0="
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
