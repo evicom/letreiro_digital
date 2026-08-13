@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07080c"/>
+      <stop offset="100%" stop-color="#0d1018"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Fundo -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Raio neon -->
+  <path d="M280 90 L180 270 L240 270 L220 420 L340 220 L275 220 L310 90 Z"
+        fill="url(#neon)" filter="url(#glow)"/>
+  <!-- Texto -->
+  <text x="256" y="480" text-anchor="middle"
+        font-family="Orbitron, sans-serif" font-weight="900"
+        font-size="42" fill="#00e5ff" letter-spacing="4">
+    LETREIRO
+  </text>
+</svg>
